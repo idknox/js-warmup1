@@ -1,3 +1,9 @@
+def say_hi
+  puts "Hi!"
+end
+
+say_hi
+
 def add(a, b)
   a + b
 end
