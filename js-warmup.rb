@@ -6,9 +6,7 @@ puts add(1, 2)
 
 
 def in_range(n)
-  range = (1..10)
-
-  if range.include?(n)
+  if (1..10).include?(n)
     puts "yup!"
   else
     puts "nope!"
